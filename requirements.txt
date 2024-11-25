@@ -1,0 +1,10 @@
+Flask==2.2.5
+flask-cors==3.0.10
+pymongo==4.3.3
+faiss-cpu==1.7.3
+sentence-transformers==2.2.0
+APScheduler==3.10.4
+logging
+numpy==1.25.2
+spacy>=3.8.2
+en-core-web-lg==3.8.0

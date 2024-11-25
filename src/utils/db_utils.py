@@ -35,6 +35,23 @@ def connect_to_mongo(uri="mongodb://localhost:27017/"):
         logging.error(f"Failed to connect to MongoDB: {e}")
         sys.exit(1)
 
+def empty_database(target_db):
+    """
+    Empties the specified MongoDB database by dropping all its collections.
+
+    Parameters:
+    - target_db (Database): The MongoDB database instance to empty.
+    """
+    try:
+        collection_names = target_db.list_collection_names()
+        for collection_name in collection_names:
+            target_db.drop_collection(collection_name)
+            logging.info(f"Dropped collection: {collection_name}")
+        logging.info(f"Database '{target_db.name}' has been emptied.")
+    except Exception as e:
+        logging.error(f"Error while emptying the database '{target_db.name}': {e}")
+        sys.exit(1)
+
 def duplicate_database(source_db_name, target_db_name, client):
     """
     Duplicates a MongoDB database by copying all collections and their indexes.
@@ -46,6 +63,10 @@ def duplicate_database(source_db_name, target_db_name, client):
     """
     source_db = client[source_db_name]
     target_db = client[target_db_name]
+
+    # Empty the target database before duplication
+    logging.info(f"Emptying the target database: {target_db_name}")
+    empty_database(target_db)
 
     # Retrieve all collection names from the source database
     collection_names = source_db.list_collection_names()
@@ -67,17 +88,17 @@ def duplicate_database(source_db_name, target_db_name, client):
                 try:
                     target_collection.insert_many(batch)
                     count += len(batch)
-                    logging.info(f"Inserted {count} documents into {collection_name}")
+                    logging.info(f"Inserted {count} documents into '{collection_name}'")
                 except Exception as e:
-                    logging.error(f"Error inserting documents into {collection_name}: {e}")
+                    logging.error(f"Error inserting documents into '{collection_name}': {e}")
                 batch = []
         if batch:
             try:
                 target_collection.insert_many(batch)
                 count += len(batch)
-                logging.info(f"Inserted {count} documents into {collection_name}")
+                logging.info(f"Inserted {count} documents into '{collection_name}'")
             except Exception as e:
-                logging.error(f"Error inserting documents into {collection_name}: {e}")
+                logging.error(f"Error inserting documents into '{collection_name}': {e}")
 
         # Copy indexes from source to target collection
         logging.info(f"Copying indexes for collection: {collection_name}")
@@ -94,30 +115,6 @@ def duplicate_database(source_db_name, target_db_name, client):
                 target_collection.create_index(list(index_keys.items()), **index_options)
                 logging.info(f"Created index: {index_dict.get('name')}")
             except Exception as e:
-                logging.error(f"Failed to create index {index_dict.get('name')}: {e}")
+                logging.error(f"Failed to create index '{index_dict.get('name')}': {e}")
 
     logging.info(f"\nDatabase duplication from '{source_db_name}' to '{target_db_name}' completed successfully.")
-
-def main():
-    """
-    Main function to execute the database duplication.
-    """
-    # Define your source and target database names
-    SOURCE_DB = "news_db"        # Replace with your actual source database name
-    TARGET_DB = "experiment_1_db"  # Replace with your desired target database name
-
-    # Optional: Define your MongoDB URI if not running on localhost
-    MONGODB_URI = "mongodb://localhost:27017/"  # Modify if necessary
-
-    # Establish connection
-    client = connect_to_mongo(MONGODB_URI)
-
-    # Duplicate the database
-    duplicate_database(SOURCE_DB, TARGET_DB, client)
-
-    # Close the connection
-    client.close()
-    logging.info("MongoDB connection closed.")
-
-if __name__ == "__main__":
-    main()

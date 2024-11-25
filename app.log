@@ -1,0 +1,410 @@
+2024-11-25 14:47:57,019 INFO Connected to MongoDB successfully.
+2024-11-25 14:47:58,346 INFO spaCy 'en_core_web_lg' model loaded successfully.
+2024-11-25 14:47:58,357 INFO Flask app terminated.
+2024-11-25 14:54:12,674 INFO Connected to MongoDB successfully.
+2024-11-25 14:54:14,079 INFO spaCy 'en_core_web_lg' model loaded successfully.
+2024-11-25 14:54:14,095 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2024-11-25 14:54:14,096 INFO [33mPress CTRL+C to quit[0m
+2024-11-25 14:54:14,098 INFO  * Restarting with stat
+2024-11-25 14:54:16,486 INFO Connected to MongoDB successfully.
+2024-11-25 14:54:17,829 INFO spaCy 'en_core_web_lg' model loaded successfully.
+2024-11-25 14:54:17,838 WARNING  * Debugger is active!
+2024-11-25 14:54:17,850 INFO  * Debugger PIN: 694-817-792
+2024-11-25 15:08:11,235 INFO  * Detected change in 'D:\\Thesis\\Chatbot-Thesis\\src\\app.py', reloading
+2024-11-25 15:08:11,244 INFO Flask app terminated.
+2024-11-25 15:08:12,919 INFO Flask app terminated.
+2024-11-25 15:08:47,668 INFO Connected to MongoDB successfully.
+2024-11-25 15:08:47,668 INFO Connected to MongoDB successfully.
+2024-11-25 15:08:49,096 INFO spaCy 'en_core_web_lg' model loaded successfully.
+2024-11-25 15:08:49,118 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2024-11-25 15:08:49,118 INFO [33mPress CTRL+C to quit[0m
+2024-11-25 15:08:49,121 INFO  * Restarting with stat
+2024-11-25 15:08:51,321 INFO Connected to MongoDB successfully.
+2024-11-25 15:08:51,322 INFO Connected to MongoDB successfully.
+2024-11-25 15:08:52,715 INFO spaCy 'en_core_web_lg' model loaded successfully.
+2024-11-25 15:08:52,725 WARNING  * Debugger is active!
+2024-11-25 15:08:52,734 INFO  * Debugger PIN: 694-817-792
+2024-11-25 15:18:32,100 INFO  * Detected change in 'D:\\Thesis\\Chatbot-Thesis\\src\\app.py', reloading
+2024-11-25 15:18:32,101 INFO Flask app terminated.
+2024-11-25 15:18:32,903 INFO Flask app terminated.
+2024-11-25 15:18:55,269 INFO Connected to MongoDB successfully.
+2024-11-25 15:18:55,270 INFO Connected to MongoDB successfully.
+2024-11-25 15:18:56,526 INFO spaCy 'en_core_web_lg' model loaded successfully.
+2024-11-25 15:18:56,541 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2024-11-25 15:18:56,542 INFO [33mPress CTRL+C to quit[0m
+2024-11-25 15:18:56,544 INFO  * Restarting with stat
+2024-11-25 15:18:58,737 INFO Connected to MongoDB successfully.
+2024-11-25 15:18:58,738 INFO Connected to MongoDB successfully.
+2024-11-25 15:18:59,844 INFO spaCy 'en_core_web_lg' model loaded successfully.
+2024-11-25 15:18:59,853 WARNING  * Debugger is active!
+2024-11-25 15:18:59,859 INFO  * Debugger PIN: 694-817-792
+2024-11-25 15:21:07,309 INFO  * Detected change in 'D:\\Thesis\\Chatbot-Thesis\\src\\app.py', reloading
+2024-11-25 15:21:07,309 INFO Flask app terminated.
+2024-11-25 15:21:08,109 INFO Flask app terminated.
+2024-11-25 15:21:15,984 INFO Connected to MongoDB successfully.
+2024-11-25 15:21:15,984 INFO Connected to MongoDB successfully.
+2024-11-25 15:21:17,264 INFO spaCy 'en_core_web_lg' model loaded successfully.
+2024-11-25 15:21:17,279 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5002
+2024-11-25 15:21:17,279 INFO [33mPress CTRL+C to quit[0m
+2024-11-25 15:21:17,281 INFO  * Restarting with stat
+2024-11-25 15:21:19,519 INFO Connected to MongoDB successfully.
+2024-11-25 15:21:19,519 INFO Connected to MongoDB successfully.
+2024-11-25 15:21:20,653 INFO spaCy 'en_core_web_lg' model loaded successfully.
+2024-11-25 15:21:20,661 WARNING  * Debugger is active!
+2024-11-25 15:21:20,675 INFO  * Debugger PIN: 694-817-792
+2024-11-25 15:21:26,459 INFO 127.0.0.1 - - [25/Nov/2024 15:21:26] "[31m[1mGET /duplicate_db HTTP/1.1[0m" 405 -
+2024-11-25 15:21:31,652 INFO Received request to duplicate DB from 'news_db' to 'experiment_db'
+2024-11-25 15:21:31,653 INFO Emptying the target database: experiment_db
+2024-11-25 15:21:31,657 INFO Database 'experiment_db' has been emptied.
+2024-11-25 15:21:31,659 INFO Collections to copy: ['scraped_articles', 'news_sources', 'news_articles', 'tickers']
+2024-11-25 15:21:31,659 INFO 
+Copying collection: scraped_articles
+2024-11-25 15:21:31,759 INFO Inserted 285 documents into 'scraped_articles'
+2024-11-25 15:21:31,759 INFO Copying indexes for collection: scraped_articles
+2024-11-25 15:21:31,761 INFO 
+Copying collection: news_sources
+2024-11-25 15:21:31,773 INFO Inserted 2 documents into 'news_sources'
+2024-11-25 15:21:31,774 INFO Copying indexes for collection: news_sources
+2024-11-25 15:21:31,775 INFO 
+Copying collection: news_articles
+2024-11-25 15:21:31,819 INFO Inserted 1000 documents into 'news_articles'
+2024-11-25 15:21:31,836 INFO Inserted 2000 documents into 'news_articles'
+2024-11-25 15:21:31,850 INFO Inserted 2544 documents into 'news_articles'
+2024-11-25 15:21:31,850 INFO Copying indexes for collection: news_articles
+2024-11-25 15:21:31,852 INFO 
+Copying collection: tickers
+2024-11-25 15:21:31,896 INFO Inserted 1000 documents into 'tickers'
+2024-11-25 15:21:31,910 INFO Inserted 2000 documents into 'tickers'
+2024-11-25 15:21:31,921 INFO Inserted 3000 documents into 'tickers'
+2024-11-25 15:21:31,932 INFO Inserted 4000 documents into 'tickers'
+2024-11-25 15:21:31,944 INFO Inserted 4833 documents into 'tickers'
+2024-11-25 15:21:31,944 INFO Copying indexes for collection: tickers
+2024-11-25 15:21:31,945 INFO 
+Database duplication from 'news_db' to 'experiment_db' completed successfully.
+2024-11-25 15:21:31,946 INFO Database duplication completed successfully.
+2024-11-25 15:21:31,947 ERROR Failed to create text index on 'news_copy' in 'experiment_db': if no direction is specified, key_or_list must be an instance of list
+2024-11-25 15:21:31,947 INFO Text indexes created on 'experiment_db.news_copy'.
+2024-11-25 15:21:31,948 INFO 127.0.0.1 - - [25/Nov/2024 15:21:31] "POST /duplicate_db HTTP/1.1" 200 -
+2024-11-25 15:26:00,692 INFO  * Detected change in 'D:\\Thesis\\Chatbot-Thesis\\src\\app.py', reloading
+2024-11-25 15:26:00,695 INFO Flask app terminated.
+2024-11-25 15:26:01,633 INFO Flask app terminated.
+2024-11-25 15:26:08,670 INFO Connected to MongoDB successfully.
+2024-11-25 15:26:08,671 INFO Connected to MongoDB successfully.
+2024-11-25 15:26:09,877 INFO spaCy 'en_core_web_lg' model loaded successfully.
+2024-11-25 15:26:09,891 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5002
+2024-11-25 15:26:09,892 INFO [33mPress CTRL+C to quit[0m
+2024-11-25 15:26:09,893 INFO  * Restarting with stat
+2024-11-25 15:26:12,251 INFO Connected to MongoDB successfully.
+2024-11-25 15:26:12,251 INFO Connected to MongoDB successfully.
+2024-11-25 15:26:13,696 INFO spaCy 'en_core_web_lg' model loaded successfully.
+2024-11-25 15:26:13,704 WARNING  * Debugger is active!
+2024-11-25 15:26:13,713 INFO  * Debugger PIN: 694-817-792
+2024-11-25 15:27:27,743 INFO 127.0.0.1 - - [25/Nov/2024 15:27:27] "[31m[1mPOST /search/keyword?query="Hello"&top_k=4 HTTP/1.1[0m" 415 -
+2024-11-25 15:28:09,860 INFO 127.0.0.1 - - [25/Nov/2024 15:28:09] "[31m[1mPOST /search/keyword HTTP/1.1[0m" 415 -
+2024-11-25 15:29:14,213 INFO 127.0.0.1 - - [25/Nov/2024 15:29:14] "POST /search/keyword HTTP/1.1" 200 -
+2024-11-25 15:30:42,268 INFO  * Detected change in 'D:\\Thesis\\Chatbot-Thesis\\src\\app.py', reloading
+2024-11-25 15:30:42,269 INFO Flask app terminated.
+2024-11-25 15:30:43,266 INFO Flask app terminated.
+2024-11-25 15:30:50,300 INFO Connected to MongoDB successfully.
+2024-11-25 15:30:50,301 INFO Connected to MongoDB successfully.
+2024-11-25 15:30:51,597 INFO spaCy 'en_core_web_lg' model loaded successfully.
+2024-11-25 15:30:51,612 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5002
+2024-11-25 15:30:51,612 INFO [33mPress CTRL+C to quit[0m
+2024-11-25 15:30:51,614 INFO  * Restarting with stat
+2024-11-25 15:30:53,857 INFO Connected to MongoDB successfully.
+2024-11-25 15:30:53,858 INFO Connected to MongoDB successfully.
+2024-11-25 15:30:55,245 INFO spaCy 'en_core_web_lg' model loaded successfully.
+2024-11-25 15:30:55,254 WARNING  * Debugger is active!
+2024-11-25 15:30:55,263 INFO  * Debugger PIN: 694-817-792
+2024-11-25 15:30:55,834 INFO Received keyword search request for query: 'Quantum computing breakthroughs in 2025' with top_k: 3
+2024-11-25 15:30:55,855 ERROR Keyword search failed: Object of type Doc is not JSON serializable
+2024-11-25 15:30:55,856 INFO 127.0.0.1 - - [25/Nov/2024 15:30:55] "[35m[1mPOST /search/keyword HTTP/1.1[0m" 500 -
+2024-11-25 15:31:02,037 INFO Received keyword search request for query: 'Quantum computing breakthroughs in 2025' with top_k: 3
+2024-11-25 15:31:02,052 ERROR Keyword search failed: Object of type Doc is not JSON serializable
+2024-11-25 15:31:02,054 INFO 127.0.0.1 - - [25/Nov/2024 15:31:02] "[35m[1mPOST /search/keyword HTTP/1.1[0m" 500 -
+2024-11-25 15:33:39,739 INFO  * Detected change in 'D:\\Thesis\\Chatbot-Thesis\\src\\app.py', reloading
+2024-11-25 15:33:39,740 INFO Flask app terminated.
+2024-11-25 15:33:40,812 INFO Flask app terminated.
+2024-11-25 15:33:45,406 INFO Connected to MongoDB successfully.
+2024-11-25 15:33:45,407 INFO Connected to MongoDB successfully.
+2024-11-25 15:33:46,692 INFO spaCy 'en_core_web_lg' model loaded successfully.
+2024-11-25 15:33:46,707 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5002
+2024-11-25 15:33:46,707 INFO [33mPress CTRL+C to quit[0m
+2024-11-25 15:33:46,709 INFO  * Restarting with stat
+2024-11-25 15:33:48,985 INFO Connected to MongoDB successfully.
+2024-11-25 15:33:48,985 INFO Connected to MongoDB successfully.
+2024-11-25 15:33:50,085 INFO spaCy 'en_core_web_lg' model loaded successfully.
+2024-11-25 15:33:50,092 WARNING  * Debugger is active!
+2024-11-25 15:33:50,099 INFO  * Debugger PIN: 694-817-792
+2024-11-25 15:33:52,959 INFO Received keyword search request for query: 'Quantum computing breakthroughs in 2025' with top_k: 3
+2024-11-25 15:33:52,966 INFO Extracted entities: {'ORG': ['Quantum'], 'DATE': ['2025']}
+2024-11-25 15:33:52,967 INFO 127.0.0.1 - - [25/Nov/2024 15:33:52] "POST /search/keyword HTTP/1.1" 200 -
+2024-11-25 15:35:48,906 INFO  * Detected change in 'D:\\Thesis\\Chatbot-Thesis\\src\\app.py', reloading
+2024-11-25 15:35:48,907 INFO Flask app terminated.
+2024-11-25 15:35:49,941 INFO Flask app terminated.
+2024-11-25 15:35:56,038 INFO Connected to MongoDB successfully.
+2024-11-25 15:35:56,039 INFO Connected to MongoDB successfully.
+2024-11-25 15:35:57,230 INFO spaCy 'en_core_web_lg' model loaded successfully.
+2024-11-25 15:35:57,247 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5002
+2024-11-25 15:35:57,248 INFO [33mPress CTRL+C to quit[0m
+2024-11-25 15:35:57,249 INFO  * Restarting with stat
+2024-11-25 15:35:59,425 INFO Connected to MongoDB successfully.
+2024-11-25 15:35:59,426 INFO Connected to MongoDB successfully.
+2024-11-25 15:36:00,479 INFO spaCy 'en_core_web_lg' model loaded successfully.
+2024-11-25 15:36:00,486 WARNING  * Debugger is active!
+2024-11-25 15:36:00,492 INFO  * Debugger PIN: 694-817-792
+2024-11-25 15:36:01,695 INFO Received keyword search request for query: 'Quantum computing breakthroughs in 2025' with top_k: 3
+2024-11-25 15:36:01,701 INFO Extracted entities: {'ORG': ['Quantum'], 'DATE': ['2025']}
+2024-11-25 15:36:01,701 INFO Formulated search criteria: {'$or': [{'headline': {'$regex': '\\bQuantum\\b', '$options': 'i'}}, {'scraped_content': {'$regex': '\\bQuantum\\b', '$options': 'i'}}, {'publish_time': {'$regex': '2025', '$options': 'i'}}]}
+2024-11-25 15:36:01,708 INFO 127.0.0.1 - - [25/Nov/2024 15:36:01] "[33mPOST /search/keyword HTTP/1.1[0m" 404 -
+2024-11-25 15:37:24,568 INFO Received keyword search request for query: 'Cramer' with top_k: 3
+2024-11-25 15:37:24,573 INFO Extracted entities: {'PERSON': ['Cramer']}
+2024-11-25 15:37:24,574 INFO Formulated search criteria: {'$or': [{'headline': {'$regex': '\\bCramer\\b', '$options': 'i'}}, {'scraped_content': {'$regex': '\\bCramer\\b', '$options': 'i'}}]}
+2024-11-25 15:37:24,578 INFO 127.0.0.1 - - [25/Nov/2024 15:37:24] "[33mPOST /search/keyword HTTP/1.1[0m" 404 -
+2024-11-25 15:37:49,444 INFO  * Detected change in 'D:\\Thesis\\Chatbot-Thesis\\src\\app.py', reloading
+2024-11-25 15:37:49,445 INFO Flask app terminated.
+2024-11-25 15:37:50,398 INFO Flask app terminated.
+2024-11-25 15:37:55,248 INFO Connected to MongoDB successfully.
+2024-11-25 15:37:55,249 INFO Connected to MongoDB successfully.
+2024-11-25 15:37:56,483 INFO spaCy 'en_core_web_lg' model loaded successfully.
+2024-11-25 15:37:56,496 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5002
+2024-11-25 15:37:56,497 INFO [33mPress CTRL+C to quit[0m
+2024-11-25 15:37:56,499 INFO  * Restarting with stat
+2024-11-25 15:37:58,750 INFO Connected to MongoDB successfully.
+2024-11-25 15:37:58,751 INFO Connected to MongoDB successfully.
+2024-11-25 15:37:59,852 INFO spaCy 'en_core_web_lg' model loaded successfully.
+2024-11-25 15:37:59,858 WARNING  * Debugger is active!
+2024-11-25 15:37:59,863 INFO  * Debugger PIN: 694-817-792
+2024-11-25 15:38:01,286 INFO Received keyword search request for query: 'Cramer' with top_k: 3
+2024-11-25 15:38:01,291 INFO Extracted entities: {'PERSON': ['Cramer']}
+2024-11-25 15:38:01,292 INFO Formulated search criteria: {'$or': [{'headline': {'$regex': '\\bCramer\\b', '$options': 'i'}}, {'scraped_content': {'$regex': '\\bCramer\\b', '$options': 'i'}}]}
+2024-11-25 15:38:01,294 INFO 127.0.0.1 - - [25/Nov/2024 15:38:01] "[33mPOST /search/keyword HTTP/1.1[0m" 404 -
+2024-11-25 15:38:03,644 INFO Received keyword search request for query: 'Cramer' with top_k: 3
+2024-11-25 15:38:03,648 INFO Extracted entities: {'PERSON': ['Cramer']}
+2024-11-25 15:38:03,649 INFO Formulated search criteria: {'$or': [{'headline': {'$regex': '\\bCramer\\b', '$options': 'i'}}, {'scraped_content': {'$regex': '\\bCramer\\b', '$options': 'i'}}]}
+2024-11-25 15:38:03,650 INFO 127.0.0.1 - - [25/Nov/2024 15:38:03] "[33mPOST /search/keyword HTTP/1.1[0m" 404 -
+2024-11-25 15:42:25,969 INFO  * Detected change in 'D:\\Thesis\\Chatbot-Thesis\\src\\app.py', reloading
+2024-11-25 15:42:25,970 INFO Flask app terminated.
+2024-11-25 15:42:26,842 INFO Flask app terminated.
+2024-11-25 15:44:35,936 INFO Connected to MongoDB successfully.
+2024-11-25 15:44:35,937 INFO Connected to MongoDB successfully.
+2024-11-25 15:44:37,242 INFO spaCy 'en_core_web_lg' model loaded successfully.
+2024-11-25 15:44:37,258 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5002
+2024-11-25 15:44:37,258 INFO [33mPress CTRL+C to quit[0m
+2024-11-25 15:44:37,260 INFO  * Restarting with stat
+2024-11-25 15:44:39,557 INFO Connected to MongoDB successfully.
+2024-11-25 15:44:39,558 INFO Connected to MongoDB successfully.
+2024-11-25 15:44:40,736 INFO spaCy 'en_core_web_lg' model loaded successfully.
+2024-11-25 15:44:40,744 WARNING  * Debugger is active!
+2024-11-25 15:44:40,750 INFO  * Debugger PIN: 694-817-792
+2024-11-25 15:45:42,817 INFO Received request to duplicate DB from 'news_db' to 'experiment_db'
+2024-11-25 15:45:42,820 INFO Dropped existing database 'experiment_db'.
+2024-11-25 15:45:59,721 INFO Copied 285 documents to 'experiment_db.scraped_articles'.
+2024-11-25 15:45:59,743 INFO Copied 2 documents to 'experiment_db.news_sources'.
+2024-11-25 15:46:06,689 INFO Copied 2544 documents to 'experiment_db.news_articles'.
+2024-11-25 15:46:20,087 INFO Copied 4833 documents to 'experiment_db.tickers'.
+2024-11-25 15:46:20,090 INFO Database duplication with keyword extraction completed successfully.
+2024-11-25 15:46:20,091 ERROR Failed to create text index on 'news_copy' in 'experiment_db': if no direction is specified, key_or_list must be an instance of list
+2024-11-25 15:46:20,091 INFO Text indexes created on 'experiment_db.news_copy'.
+2024-11-25 15:46:20,092 INFO 127.0.0.1 - - [25/Nov/2024 15:46:20] "POST /duplicate_db HTTP/1.1" 200 -
+2024-11-25 15:46:32,658 INFO Received keyword search request for query: 'Cramer' with top_k: 3
+2024-11-25 15:46:32,663 INFO Extracted entities: {'PERSON': ['Cramer']}
+2024-11-25 15:46:32,664 INFO Formulated search criteria: {'$or': [{'title': {'$regex': '\\bCramer\\b', '$options': 'i'}}, {'meta_description': {'$regex': '\\bCramer\\b', '$options': 'i'}}, {'keywords': {'$regex': '\\bCramer\\b', '$options': 'i'}}, {'authors': {'$regex': '\\bCramer\\b', '$options': 'i'}}, {'content': {'$regex': '\\bCramer\\b', '$options': 'i'}}]}
+2024-11-25 15:46:32,666 INFO 127.0.0.1 - - [25/Nov/2024 15:46:32] "[33mPOST /search/keyword HTTP/1.1[0m" 404 -
+2024-11-25 16:00:31,206 INFO  * Detected change in 'D:\\Thesis\\Chatbot-Thesis\\src\\app.py', reloading
+2024-11-25 16:00:31,208 INFO Flask app terminated.
+2024-11-25 16:00:32,406 INFO Flask app terminated.
+2024-11-25 16:05:05,501 INFO Connected to MongoDB successfully.
+2024-11-25 16:05:05,502 INFO Connected to MongoDB successfully.
+2024-11-25 16:05:06,896 INFO spaCy 'en_core_web_lg' model loaded successfully.
+2024-11-25 16:05:06,916 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2024-11-25 16:05:06,917 INFO [33mPress CTRL+C to quit[0m
+2024-11-25 16:05:06,919 INFO  * Restarting with stat
+2024-11-25 16:05:09,753 INFO Connected to MongoDB successfully.
+2024-11-25 16:05:09,753 INFO Connected to MongoDB successfully.
+2024-11-25 16:05:11,281 INFO spaCy 'en_core_web_lg' model loaded successfully.
+2024-11-25 16:05:11,291 WARNING  * Debugger is active!
+2024-11-25 16:05:11,300 INFO  * Debugger PIN: 694-817-792
+2024-11-25 16:05:34,019 INFO  * Detected change in 'D:\\Thesis\\Chatbot-Thesis\\src\\app.py', reloading
+2024-11-25 16:05:34,019 INFO Flask app terminated.
+2024-11-25 16:05:34,691 INFO Flask app terminated.
+2024-11-25 16:05:40,897 INFO Connected to MongoDB successfully.
+2024-11-25 16:05:40,898 INFO Connected to MongoDB successfully.
+2024-11-25 16:05:42,081 INFO spaCy 'en_core_web_lg' model loaded successfully.
+2024-11-25 16:05:42,099 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5002
+2024-11-25 16:05:42,100 INFO [33mPress CTRL+C to quit[0m
+2024-11-25 16:05:42,101 INFO  * Restarting with stat
+2024-11-25 16:05:44,297 INFO Connected to MongoDB successfully.
+2024-11-25 16:05:44,297 INFO Connected to MongoDB successfully.
+2024-11-25 16:05:45,351 INFO spaCy 'en_core_web_lg' model loaded successfully.
+2024-11-25 16:05:45,359 WARNING  * Debugger is active!
+2024-11-25 16:05:45,370 INFO  * Debugger PIN: 694-817-792
+2024-11-25 16:05:47,342 INFO Received request to duplicate DB from 'news_db' to 'experiment_db'
+2024-11-25 16:05:47,350 INFO Dropped existing database 'experiment_db'.
+2024-11-25 16:06:03,710 INFO Copied 285 documents to 'experiment_db.scraped_articles'.
+2024-11-25 16:06:03,740 INFO Copied 2 documents to 'experiment_db.news_sources'.
+2024-11-25 16:06:09,918 INFO Copied 2558 documents to 'experiment_db.news_articles'.
+2024-11-25 16:06:22,073 INFO Copied 4833 documents to 'experiment_db.tickers'.
+2024-11-25 16:06:22,075 INFO Database duplication with keyword extraction completed successfully.
+2024-11-25 16:06:22,076 ERROR Failed to create text index on 'news_source' in 'experiment_db': if no direction is specified, key_or_list must be an instance of list
+2024-11-25 16:06:22,076 INFO Text indexes created on 'experiment_db.news_source'.
+2024-11-25 16:06:22,078 INFO 127.0.0.1 - - [25/Nov/2024 16:06:22] "POST /duplicate_db HTTP/1.1" 200 -
+2024-11-25 16:08:00,548 INFO Received keyword search request for query: 'Cramer' with top_k: 3
+2024-11-25 16:08:00,554 ERROR Keyword search failed: text index required for $text query (no such collection 'experiment_db.news_source'), full error: {'ok': 0.0, 'errmsg': "text index required for $text query (no such collection 'experiment_db.news_source')", 'code': 27, 'codeName': 'IndexNotFound'}
+2024-11-25 16:08:00,556 INFO 127.0.0.1 - - [25/Nov/2024 16:08:00] "[35m[1mPOST /search/keyword HTTP/1.1[0m" 500 -
+2024-11-25 16:12:24,688 INFO  * Detected change in 'D:\\Thesis\\Chatbot-Thesis\\src\\app.py', reloading
+2024-11-25 16:12:24,689 INFO Flask app terminated.
+2024-11-25 16:12:25,337 INFO Flask app terminated.
+2024-11-25 16:12:34,686 INFO Connected to MongoDB successfully.
+2024-11-25 16:12:34,686 INFO Connected to MongoDB successfully.
+2024-11-25 16:12:35,910 INFO spaCy 'en_core_web_lg' model loaded successfully.
+2024-11-25 16:12:35,928 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5002
+2024-11-25 16:12:35,929 INFO [33mPress CTRL+C to quit[0m
+2024-11-25 16:12:35,930 INFO  * Restarting with stat
+2024-11-25 16:12:38,214 INFO Connected to MongoDB successfully.
+2024-11-25 16:12:38,214 INFO Connected to MongoDB successfully.
+2024-11-25 16:12:39,315 INFO spaCy 'en_core_web_lg' model loaded successfully.
+2024-11-25 16:12:39,322 WARNING  * Debugger is active!
+2024-11-25 16:12:39,327 INFO  * Debugger PIN: 694-817-792
+2024-11-25 16:12:42,850 INFO Received request to duplicate DB from 'news_db' to 'experiment_db'
+2024-11-25 16:12:42,854 INFO Dropped existing database 'experiment_db'.
+2024-11-25 16:12:59,408 INFO Copied 285 documents to 'experiment_db.scraped_articles'.
+2024-11-25 16:12:59,430 INFO Copied 2 documents to 'experiment_db.news_sources'.
+2024-11-25 16:13:06,082 INFO Copied 2558 documents to 'experiment_db.news_articles'.
+2024-11-25 16:13:18,612 INFO Copied 4833 documents to 'experiment_db.tickers'.
+2024-11-25 16:13:18,614 INFO Database duplication with keyword extraction completed successfully.
+2024-11-25 16:13:18,615 ERROR Failed to create text index on 'scraped_articles' in 'experiment_db': if no direction is specified, key_or_list must be an instance of list
+2024-11-25 16:13:18,616 INFO Text indexes created on 'experiment_db.scraped_articles'.
+2024-11-25 16:13:18,617 INFO 127.0.0.1 - - [25/Nov/2024 16:13:18] "POST /duplicate_db HTTP/1.1" 200 -
+2024-11-25 16:13:59,747 INFO Received keyword search request for query: 'Cramer' with top_k: 3
+2024-11-25 16:13:59,748 ERROR Keyword search failed: text index required for $text query, full error: {'ok': 0.0, 'errmsg': 'text index required for $text query', 'code': 27, 'codeName': 'IndexNotFound'}
+2024-11-25 16:13:59,750 INFO 127.0.0.1 - - [25/Nov/2024 16:13:59] "[35m[1mPOST /search/keyword HTTP/1.1[0m" 500 -
+2024-11-25 16:16:55,162 INFO  * Detected change in 'D:\\Thesis\\Chatbot-Thesis\\src\\app.py', reloading
+2024-11-25 16:16:55,162 INFO Flask app terminated.
+2024-11-25 16:16:56,148 INFO Flask app terminated.
+2024-11-25 16:17:58,716 INFO Connected to MongoDB successfully.
+2024-11-25 16:17:58,716 INFO Connected to MongoDB successfully.
+2024-11-25 16:18:00,180 INFO spaCy 'en_core_web_lg' model loaded successfully.
+2024-11-25 16:18:00,195 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5002
+2024-11-25 16:18:00,195 INFO [33mPress CTRL+C to quit[0m
+2024-11-25 16:18:00,197 INFO  * Restarting with stat
+2024-11-25 16:18:02,580 INFO Connected to MongoDB successfully.
+2024-11-25 16:18:02,580 INFO Connected to MongoDB successfully.
+2024-11-25 16:18:03,694 INFO spaCy 'en_core_web_lg' model loaded successfully.
+2024-11-25 16:18:03,702 WARNING  * Debugger is active!
+2024-11-25 16:18:03,710 INFO  * Debugger PIN: 694-817-792
+2024-11-25 16:18:05,755 INFO Received request to duplicate DB from 'news_db' to 'experiment_db'
+2024-11-25 16:18:05,760 INFO Dropped existing database 'experiment_db'.
+2024-11-25 16:18:22,473 INFO Copied 285 documents to 'experiment_db.scraped_articles'.
+2024-11-25 16:18:22,490 INFO Copied 2 documents to 'experiment_db.news_sources'.
+2024-11-25 16:18:29,238 INFO Copied 2558 documents to 'experiment_db.news_articles'.
+2024-11-25 16:18:42,093 INFO Copied 4833 documents to 'experiment_db.tickers'.
+2024-11-25 16:18:42,095 INFO Database duplication with keyword extraction completed successfully.
+2024-11-25 16:18:42,096 ERROR Failed to create text index on 'scraped_articles' in 'experiment_db': if no direction is specified, key_or_list must be an instance of list
+2024-11-25 16:18:42,096 INFO Text indexes created on 'experiment_db.scraped_articles'.
+2024-11-25 16:18:42,097 INFO 127.0.0.1 - - [25/Nov/2024 16:18:42] "POST /duplicate_db HTTP/1.1" 200 -
+2024-11-25 16:18:49,475 INFO Received keyword search request for query: 'Cramer' with top_k: 3
+2024-11-25 16:18:49,477 ERROR Keyword search failed: text index required for $text query, full error: {'ok': 0.0, 'errmsg': 'text index required for $text query', 'code': 27, 'codeName': 'IndexNotFound'}
+2024-11-25 16:18:49,479 INFO 127.0.0.1 - - [25/Nov/2024 16:18:49] "[35m[1mPOST /search/keyword HTTP/1.1[0m" 500 -
+2024-11-25 16:26:29,095 INFO  * Detected change in 'D:\\Thesis\\Chatbot-Thesis\\src\\app.py', reloading
+2024-11-25 16:26:29,096 INFO Flask app terminated.
+2024-11-25 16:26:29,983 INFO Flask app terminated.
+2024-11-25 16:28:03,999 INFO Connected to MongoDB successfully.
+2024-11-25 16:28:03,999 INFO Connected to MongoDB successfully.
+2024-11-25 16:28:05,398 INFO spaCy 'en_core_web_lg' model loaded successfully.
+2024-11-25 16:28:05,416 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5002
+2024-11-25 16:28:05,417 INFO [33mPress CTRL+C to quit[0m
+2024-11-25 16:28:05,419 INFO  * Restarting with stat
+2024-11-25 16:28:07,761 INFO Connected to MongoDB successfully.
+2024-11-25 16:28:07,762 INFO Connected to MongoDB successfully.
+2024-11-25 16:28:08,873 INFO spaCy 'en_core_web_lg' model loaded successfully.
+2024-11-25 16:28:08,880 WARNING  * Debugger is active!
+2024-11-25 16:28:08,888 INFO  * Debugger PIN: 694-817-792
+2024-11-25 16:28:40,142 INFO Received request to duplicate DB from 'news_db' to 'experiment_db'
+2024-11-25 16:28:40,154 INFO Dropped existing database 'experiment_db'.
+2024-11-25 16:28:49,299 INFO Copied 285 documents to 'experiment_db.scraped_articles'.
+2024-11-25 16:28:49,314 INFO Copied 2 documents to 'experiment_db.news_sources'.
+2024-11-25 16:28:55,662 INFO Copied 2558 documents to 'experiment_db.news_articles'.
+2024-11-25 16:29:07,667 INFO Copied 4833 documents to 'experiment_db.tickers'.
+2024-11-25 16:29:07,669 INFO Database duplication with keyword preservation completed successfully.
+2024-11-25 16:29:08,124 INFO Text index created on 'scraped_articles' in 'experiment_db'.
+2024-11-25 16:29:08,124 INFO Text indexes created on 'experiment_db.scraped_articles'.
+2024-11-25 16:29:08,125 INFO 127.0.0.1 - - [25/Nov/2024 16:29:08] "POST /duplicate_db HTTP/1.1" 200 -
+2024-11-25 16:32:31,633 INFO Received keyword search request for query: 'Cramer' with top_k: 3
+2024-11-25 16:32:31,806 INFO 127.0.0.1 - - [25/Nov/2024 16:32:31] "POST /search/keyword HTTP/1.1" 200 -
+2024-11-25 16:34:19,872 INFO Cache used for key: /search/keywordbcd8b0c2eb1fce714eab6cef0d771acc
+2024-11-25 16:34:19,873 INFO 127.0.0.1 - - [25/Nov/2024 16:34:19] "POST /search/keyword HTTP/1.1" 200 -
+2024-11-25 16:34:32,896 INFO Cache used for key: /search/keywordbcd8b0c2eb1fce714eab6cef0d771acc
+2024-11-25 16:34:32,897 INFO 127.0.0.1 - - [25/Nov/2024 16:34:32] "POST /search/keyword HTTP/1.1" 200 -
+2024-11-25 16:34:48,811 INFO Cache used for key: /search/keywordbcd8b0c2eb1fce714eab6cef0d771acc
+2024-11-25 16:34:48,812 INFO 127.0.0.1 - - [25/Nov/2024 16:34:48] "POST /search/keyword HTTP/1.1" 200 -
+2024-11-25 16:34:49,705 INFO Cache used for key: /search/keywordbcd8b0c2eb1fce714eab6cef0d771acc
+2024-11-25 16:34:49,706 INFO 127.0.0.1 - - [25/Nov/2024 16:34:49] "POST /search/keyword HTTP/1.1" 200 -
+2024-11-25 16:36:10,775 INFO  * Detected change in 'D:\\Thesis\\Chatbot-Thesis\\src\\app.py', reloading
+2024-11-25 16:36:10,776 INFO Flask app terminated.
+2024-11-25 16:36:11,474 INFO Flask app terminated.
+2024-11-25 16:36:21,344 INFO Connected to MongoDB successfully.
+2024-11-25 16:36:21,344 INFO Connected to MongoDB successfully.
+2024-11-25 16:36:22,681 INFO spaCy 'en_core_web_lg' model loaded successfully.
+2024-11-25 16:36:22,697 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5002
+2024-11-25 16:36:22,697 INFO [33mPress CTRL+C to quit[0m
+2024-11-25 16:36:22,699 INFO  * Restarting with stat
+2024-11-25 16:36:26,164 INFO Connected to MongoDB successfully.
+2024-11-25 16:36:26,165 INFO Connected to MongoDB successfully.
+2024-11-25 16:36:27,584 INFO spaCy 'en_core_web_lg' model loaded successfully.
+2024-11-25 16:36:27,593 WARNING  * Debugger is active!
+2024-11-25 16:36:27,606 INFO  * Debugger PIN: 694-817-792
+2024-11-25 16:36:27,726 INFO Received keyword search request for query: 'fossil fuels' with top_k: 1
+2024-11-25 16:36:27,788 INFO 127.0.0.1 - - [25/Nov/2024 16:36:27] "POST /search/keyword HTTP/1.1" 200 -
+2024-11-25 16:36:39,829 INFO Cache used for key: /search/keywordbcd8b0c2eb1fce714eab6cef0d771acc
+2024-11-25 16:36:39,830 INFO 127.0.0.1 - - [25/Nov/2024 16:36:39] "POST /search/keyword HTTP/1.1" 200 -
+2024-11-25 16:36:47,405 INFO Cache used for key: /search/keywordbcd8b0c2eb1fce714eab6cef0d771acc
+2024-11-25 16:36:47,406 INFO 127.0.0.1 - - [25/Nov/2024 16:36:47] "POST /search/keyword HTTP/1.1" 200 -
+2024-11-25 16:37:02,651 INFO Cache used for key: /search/keywordbcd8b0c2eb1fce714eab6cef0d771acc
+2024-11-25 16:37:02,652 INFO 127.0.0.1 - - [25/Nov/2024 16:37:02] "POST /search/keyword HTTP/1.1" 200 -
+2024-11-25 16:37:24,355 INFO Cache used for key: /search/keywordbcd8b0c2eb1fce714eab6cef0d771acc
+2024-11-25 16:37:24,356 INFO 127.0.0.1 - - [25/Nov/2024 16:37:24] "POST /search/keyword HTTP/1.1" 200 -
+2024-11-25 16:37:39,450 INFO  * Detected change in 'D:\\Thesis\\Chatbot-Thesis\\src\\app.py', reloading
+2024-11-25 16:37:39,451 INFO Flask app terminated.
+2024-11-25 16:37:40,131 INFO Flask app terminated.
+2024-11-25 16:37:47,140 INFO Connected to MongoDB successfully.
+2024-11-25 16:37:47,140 INFO Connected to MongoDB successfully.
+2024-11-25 16:37:48,349 INFO spaCy 'en_core_web_lg' model loaded successfully.
+2024-11-25 16:37:48,364 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5002
+2024-11-25 16:37:48,365 INFO [33mPress CTRL+C to quit[0m
+2024-11-25 16:37:48,366 INFO  * Restarting with stat
+2024-11-25 16:37:50,700 INFO Connected to MongoDB successfully.
+2024-11-25 16:37:50,701 INFO Connected to MongoDB successfully.
+2024-11-25 16:37:51,902 INFO spaCy 'en_core_web_lg' model loaded successfully.
+2024-11-25 16:37:51,910 WARNING  * Debugger is active!
+2024-11-25 16:37:51,916 INFO  * Debugger PIN: 694-817-792
+2024-11-25 16:37:52,034 INFO 127.0.0.1 - - [25/Nov/2024 16:37:52] "[31m[1mPOST /search/keyword HTTP/1.1[0m" 400 -
+2024-11-25 16:37:59,870 INFO Received keyword search request for query: 'google' with top_k: 2
+2024-11-25 16:38:00,060 INFO 127.0.0.1 - - [25/Nov/2024 16:38:00] "POST /search/keyword HTTP/1.1" 200 -
+2024-11-25 16:38:25,263 INFO Received keyword search request for query: 'google' with top_k: 1
+2024-11-25 16:38:25,310 INFO 127.0.0.1 - - [25/Nov/2024 16:38:25] "POST /search/keyword HTTP/1.1" 200 -
+2024-11-25 16:42:10,802 INFO Received keyword search request for query: 'foosile' with top_k: 1
+2024-11-25 16:42:10,805 INFO 127.0.0.1 - - [25/Nov/2024 16:42:10] "[33mPOST /search/keyword HTTP/1.1[0m" 404 -
+2024-11-25 16:42:27,163 INFO Received keyword search request for query: 'fule' with top_k: 1
+2024-11-25 16:42:27,166 INFO 127.0.0.1 - - [25/Nov/2024 16:42:27] "[33mPOST /search/keyword HTTP/1.1[0m" 404 -
+2024-11-25 16:43:02,844 INFO Received keyword search request for query: 'amazon' with top_k: 1
+2024-11-25 16:43:03,018 INFO 127.0.0.1 - - [25/Nov/2024 16:43:03] "POST /search/keyword HTTP/1.1" 200 -
+2024-11-25 16:43:09,872 INFO Received keyword search request for query: 'amazon' with top_k: 5
+2024-11-25 16:43:10,744 INFO 127.0.0.1 - - [25/Nov/2024 16:43:10] "POST /search/keyword HTTP/1.1" 200 -
