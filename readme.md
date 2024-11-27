@@ -5,6 +5,7 @@
 ## Overview
 
 The **News Chatbot Thesis Project** aims to develop an intelligent conversational agent designed to provide users with up-to-date news, insightful analysis, and relevant information across various topics. Leveraging advanced Natural Language Processing (NLP) techniques and robust data management strategies, the chatbot ensures accurate and contextually relevant responses to user queries.
+Special Thanks to NewsCatherApi(https://www.newscatcherapi.com/) for proving the latest news required for this thesis.
 
 ## Key Ideas and Approaches
 
